@@ -1,0 +1,139 @@
+/*
+ * #FFA700 - med orange
+ * #FFCF73 - light orange
+ * #6749D7 - med purple
+ * #856FD7 - light purple
+ * #3F2D84 - dark purple
+ */
+
+* {
+    margin: 0px;
+}
+html, body {
+    background-color:lightgrey;
+}
+html, body, .container {
+    height:100%;
+    width:100%;
+}
+.row {
+    min-width:867px;
+}
+.top {
+    position:relative;
+    height:18%;
+    min-height:119px;
+    background-color:#856FD7;
+}
+.middle {
+    position:relative;
+    height:70%;
+    min-height:473px;
+    background-color:#856FD7;
+}
+.bottom {
+    position:relative;
+    height:12%;
+    min-height:80px;
+    background-color:#FFA700;
+    text-align:center;
+}
+.bottom p {
+    font-size: 16px;
+}
+
+.column {
+    position:relative;
+    height:100%;
+    width:50%;
+    float:left;
+
+}
+.center{
+    position:absolute;
+    margin: auto;
+    text-align: center;
+}
+.cv {
+    top: 0px;
+    bottom: 0px;
+}
+.ch{
+    left: 0px;
+    right: 0px;
+}
+.theform {
+    height:40%;
+    min-height:340px;
+    text-align:center;
+    background-color: #6749D7;
+    border:solid 3px #ffce73;
+    -moz-border-radius: 42px;
+    -webkit-border-radius: 42px;
+    border-radius: 42px;    
+    -moz-box-shadow: 4px 5px 36px #000000;
+    -webkit-box-shadow: 4px 5px 36px #000000;
+    box-shadow: 4px 5px 36px #000000;
+    padding:35px;
+    width: 70%;
+    min-width: 358px;
+}
+.bold {
+    font-size:17px;
+}
+.top img {
+    margin-top:15px;
+}
+.theform p {
+    text-align:left;
+}
+ul {
+    margin-top:20px;
+}
+.emailus {
+    width: 300px;
+    height: 50px;
+}
+h1, h2, p, input, button {
+    font-family: 'Happy Monkey';
+}
+h1, h2, p{
+    color: lightgrey;
+}
+h2 {
+    font-size: 18px;
+    text-align:center;
+}
+.bottom p {
+    color: black;
+}
+input {
+    font-size: 18px;
+}
+.focusField{
+    border:solid 2px #3F2D84;
+    background:#EFF5FF;
+}
+.idleField{
+    border: solid 2px #FFA700;
+    background: #EFF5FF;
+    color: #000000;
+}
+.field {
+    width:95%;
+    height:26px;
+}
+button {
+}
+button {
+    height:40px;
+    width: 200px;
+    background-color:#FFA700;
+    border-color:#FFA700;
+    border-style:solid;
+    border-radius:10px;
+    
+}
+button:hover {
+    background-color:#FFCF73;
+}

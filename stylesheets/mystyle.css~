@@ -1,0 +1,165 @@
+html, body {
+    background-image: url("../images/textured_stripes.png");
+}
+
+h1, h2, h3, h4, h5, h6, p, a, span, ul, li {
+    font-family: Quicksand;
+}
+h1 { font-size: 36px; line-height: 42px; margin-bottom: 10px;}
+h2 { font-size: 24px; line-height: 28px; margin-bottom: 8px; }
+h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
+h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+h5 { font-size: 17px; line-height: 24px; }
+h6 { font-size: 14px; line-height: 21px; }
+p { font-size: 16px;}
+a {
+    text-decoration:none;
+}
+
+div.getatme, div.main, div.nav, div.quote{
+    margin-top:20px;
+    margin-bottom:25px;
+}
+.hide-me {
+    display:none;
+}
+/******************************************** TOP *******/
+div.title-bar {
+    margin-top:20px;
+}
+.title-bar h1 {
+    line-height:36px;
+}
+.title-bar h4 {
+    line-height:48px;
+}
+div.getatme {
+    margin-top:35px;
+    height:180px;
+}
+.nav li{
+    font-size:18px;
+    font-weight:bold;
+    letter-spacing: 2px;
+    width:180px;
+    height:20px;
+    background-color:lightgrey;
+    padding:10px;
+}
+.nav li:hover{
+    cursor:pointer;
+    background-color:#3BA4DB;
+}
+.quote {
+    float:right;
+    position:relative;
+    text-align:right;
+    width:90%
+}
+.credit {
+    font-size:14px;
+}
+
+/*********************************** CONTACT *******/
+div.contact {
+    position:relative;
+    float:right;
+    width:16%;
+    border-bottom-left-radius:25px;
+    border-bottom-right-radius:25px;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+    text-align:center;
+}
+.contact img:hover {
+    border-color:orange;
+    background-color: #3BA4DB;
+}
+.contact img {
+    border-style:solid;
+    border-color:transparent;
+    border-width:3px;
+    border-radius:25px;
+    margin:3px;
+}
+
+/******************************************** MAIN *******/
+.main a {
+    color:#3BA4DB;
+    font-weight:bold;
+}
+.main a:active, .main a:hover {
+    color:orange;
+}
+
+/*********************************** ABOUT *******/
+.about img {
+    max-width: 300px;
+    float:left;
+    margin-right:30px;
+    margin-bottom:10px;
+}
+
+/*********************************** RESUME ******/
+
+.resume h5 {
+    color:#3BA4DB;
+    margin-top:10px;
+    margin-bottom:5px;
+    font-weight:bold;
+}
+.resume li {
+    margin:0px;
+}
+
+/********************************** INTERESTS ****/
+
+.interests h4 {
+    height:70px;
+}
+
+/************************ TECH ****/
+.tech p{
+    padding:5px;
+}
+
+/************************ BOOKS ****/
+div.books {
+    height: 200px;
+}
+.books img {
+    float:left;
+    margin-left:3px;    
+    margin-right:4px;
+    border-width:4px;
+    border-style:solid;
+    border-color:transparent;
+}
+.books img:hover {
+    border-color:#3BA4DB;
+}
+.books h4 {
+    text-align:right;    
+}
+div.books {
+    margin-top:20px;
+    margin-bottom:20px;
+}
+/********************************** PICTURES ****/
+
+.pic {
+    width:933px;
+    height:558px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #333333;
+    -webkit-box-shadow: 20px 20px 50px #333333;
+    box-shadow: 20px 20px 50px #333333;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.pictures {
+    min-height:600px;
+}
+
